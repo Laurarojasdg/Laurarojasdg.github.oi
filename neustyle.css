@@ -1,0 +1,178 @@
+.main_header{
+    width: 100%;
+    height: 110px;
+    z-index: 101;
+    background: #ffffff;
+    font-size: 23px;
+    font-family: Segoe print;
+    text-align: center;
+    margin-top: -8px;
+}
+
+.iconopsicologia{
+    background: #ffffff;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.menu ul{
+padding: 0%;
+margin: 0%;
+list-style: none;
+display: inline-flex;
+
+}
+
+.menu li{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.menu li a:hover{
+    color: salmon;
+    text-decoration: overline;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.tittle {
+    width: 100%;
+    height: 130px;
+    z-index: 101;
+    background-image: url(../Imagenes/Imagen6.jpg);
+    font-size: 50px;
+    font-family: Segoe print;
+    text-align: center;
+    margin-top: -8px;
+    color: salmon;
+}
+
+
+.bloquetitulo{
+    width: 100%;
+    display: inline-table;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding-top: 35px;
+    
+    
+
+    text-align: center;
+    color: #0f0f0f;
+    font-family: Century;
+    
+
+    background-image: url(../Imagenes/Imagen6.jpg);
+    background-attachment: fixed;
+    background-size: 50%;
+
+    float: left;
+
+}
+
+.video{
+    text-align: center;
+}
+
+.tittle2{
+
+    color: red;
+}
+.Pregunta{
+
+    width: 100%;
+    display: inline;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding-top: 10px;
+
+    text-align: center;
+    color: #ffffff;
+    font-family: Comic Sans MS;
+
+    background-color: #000000;
+
+    float: left;
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que la página ocupe todo el alto */
+}
+
+.content {
+    padding: 20px;
+    flex: 1; /* Ocupa el espacio restante de la página */
+}
+
+/* Estilo de la sección de contacto */
+.contact-section {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none; /* Evita que el usuario cambie el tamaño del área de texto */
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e67e22; /* Color más oscuro al pasar el ratón */
+}
